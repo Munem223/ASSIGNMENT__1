@@ -151,3 +151,49 @@
     width: 15px;
     height: 15px;
 }
+.section-title {
+    text-align: center;
+    font-size: 60px;
+    margin: 50px 0 20px 0;
+    color: #000000;
+}
+.section-text {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 200px 50px 200px;
+    color: #9e9797;
+}
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:60px;
+}
+
+.card{
+  background:white;
+  height: 275px;
+  width:350px;
+  padding:22px 18px;
+  border-radius:10px;
+  text-align:center;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card img{
+  margin: 50px 0 10px 0;
+  background: #f25c54;       
+  padding: 12px;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+}
+.card h3{
+  font-size:25px;
+  color:#000000;
+  margin-bottom:10px;
+}
+.card p{
+  font-size:16px;
+  color:#9e9797;
+}
