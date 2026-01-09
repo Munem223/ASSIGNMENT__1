@@ -8,7 +8,7 @@
     padding: 5px;
     display: flex;
     justify-content: center;
-    margin: 10px 100px;
+    margin: 10px 100px 0px 100px;
 }
 .logo {
     margin-right: auto;
@@ -42,4 +42,112 @@
 }
 .navbar button:hover {
     background-color: #e04e2b;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.txt1 {
+    position: absolute;
+    top: 275px;
+    left: 550px;
+    font-size: 95px;
+    color: #ffffff;
+    text-align: center;
+}
+.txt1 {
+    position: absolute;
+    top: 275px;
+    left: 550px;
+    font-size: 95px;
+    color: #ffffff;
+    text-align: center;
+}
+.txt2 {
+    position: absolute;
+    top: 375px;
+    left: 525px;
+    font-size: 95px;
+    color: #408551;
+    text-align: center;
+}
+.txt3 {
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    right: 600px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.75;
+    word-spacing: 5px;
+}
+.hero-btn1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    padding: 12px 24px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #408551;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-btn1 img {
+    width: 25px;
+    height: 25px;
+}
+.hero-btn1:hover {
+    background-color: #30663d;
+}
+.hero-btn2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 50px;
+    width: 220px;
+    position: absolute;
+    top: 600px;
+    left: 935px;
+    padding: 5px 20px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #408551;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-btn2 img {
+    width: 25px;
+    height: 25px;
+    background: transparent;
+}
+.hero-btn2:hover{
+    background-color: #429155;
+}
+.topbtn {
+     display: inline-flex;
+    align-items: center;
+    gap:10px;
+    height: 25px;
+    width: 250px;
+    position: absolute;
+    top: 230px;
+    left: 800px;
+    padding: 12px 24px;
+    font-size: 15px;
+    color: #408551;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+.topbtn img {
+    width: 15px;
+    height: 15px;
 }
