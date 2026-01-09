@@ -197,3 +197,41 @@
   font-size:16px;
   color:#9e9797;
 }
+.bigimg{
+  display:flex;
+  justify-content:center;
+  gap:60px;
+  margin: 100px 500px 100px 150px;
+}
+.sol {
+    text-align: left;
+    margin-top: 120px;
+    margin-bottom:10px;
+    font-size: 20px;
+    color: #408551;
+}
+.scndbrain {
+    text-align: left;
+    margin-bottom:10px;
+    font-size: 60px;
+    color: #000000;
+}
+.belowtxt {
+    text-align: left;
+    margin-bottom:30px;
+    margin-right: 100px;
+    font-size: 18px;
+    color: #9e9797;
+}
+.chkbx {
+    align-items: left;
+    list-style: none;
+    font-size: 20px;
+    margin:8px 0;
+    line-height: 1.8;
+}
+.chkbx img{
+  width:20px;          
+  margin-right:8px;
+  vertical-align:middle;
+}
