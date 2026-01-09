@@ -276,3 +276,41 @@
     font-size: 20px;
     color: #9e9797;
 }
+.foot{
+    background-color: #001931;
+    padding: 50px 100px;
+}
+.footer {
+    display: flex;
+    gap: 1200px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #9e9797;
+    margin-top: 50px;
+}
+.logo-footer{
+    height: 40px;
+    margin-bottom: 10px;
+}
+.fhead{
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.ficon img{
+    width:30px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.fline{
+  border: none;
+  border-top: 1px solid #2a3f55;
+  margin-bottom: 20px;
+}
+
+.footer-text{
+  text-align: center;
+  font-size: 13px;
+  color: #cfd8e3;
+}
